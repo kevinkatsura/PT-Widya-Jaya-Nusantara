@@ -636,28 +636,45 @@
       </button>
     </div>
     <script>
-      const names = [
-        'Ahmad Surya','Budi Pratama','Siti Rahmawati','Dewi Lestari','Andi Wijaya',
-        'Rina Marlina','Hendra Setiawan','Maya Putri','Dian Kusuma','Ricky Hidayat',
-        'Lina Kartika','Fajar Nugraha','Sari Oktaviani','Teguh Santoso','Nina Sari',
-        'Yusuf Hamdi','Putri Maharani','Agus Salim','Rizky Andara','Indra Kurnia',
-        'Wulan Sari','Erwin Saputra','Vina Susanti','Gilang Prasetyo','Rani Amelia',
-        'Bimo Aditya','Mira Saputri','Tirta Wijaya','Siska Novita','Hendra Pratama'
-      ];
-      const locationsList = [
-        'Kemang, Jakarta','Ciputra, Jakarta','BSD, Tangerang','Menteng, Jakarta','Setiabudi, Jakarta',
-        'Bandung Tengah','Dago, Bandung','Cimahi','Bekasi Timur','Depok',
-        'Surabaya','Semarang','Yogyakarta','Malang','Solo',
-        'Pekanbaru','Medan','Balikpapan','Makassar','Bali',
-        'Bogor','Karawang','Cirebon','Tasikmalaya','Bandung Barat',
-        'Jakarta Barat','Jakarta Selatan','Jakarta Utara','Jakarta Pusat','Tangerang'
+      // load images from assets/projects directory
+      const projectFiles = [
+        "WhatsApp Image 2026-02-25 at 10.29.38 AM (1).jpeg",
+        "WhatsApp Image 2026-02-25 at 10.29.38 AM.jpeg",
+        "WhatsApp Image 2026-02-25 at 10.29.39 AM (1).jpeg",
+        "WhatsApp Image 2026-02-25 at 10.29.39 AM (2).jpeg",
+        "WhatsApp Image 2026-02-25 at 10.29.39 AM.jpeg",
+        "WhatsApp Image 2026-02-25 at 10.29.40 AM (1).jpeg",
+        "WhatsApp Image 2026-02-25 at 10.29.40 AM (2).jpeg",
+        "WhatsApp Image 2026-02-25 at 10.29.40 AM (3).jpeg",
+        "WhatsApp Image 2026-02-25 at 10.29.40 AM.jpeg",
+        "WhatsApp Image 2026-02-25 at 10.29.41 AM.jpeg",
+        "WhatsApp Image 2026-02-25 at 10.29.42 AM (1).jpeg",
+        "WhatsApp Image 2026-02-25 at 10.29.42 AM.jpeg",
+        "WhatsApp Image 2026-02-25 at 10.29.43 AM (1).jpeg",
+        "WhatsApp Image 2026-02-25 at 10.29.43 AM (2).jpeg",
+        "WhatsApp Image 2026-02-25 at 10.29.43 AM (3).jpeg",
+        "WhatsApp Image 2026-02-25 at 10.29.43 AM.jpeg",
+        "WhatsApp Image 2026-02-25 at 10.29.44 AM (1).jpeg",
+        "WhatsApp Image 2026-02-25 at 10.29.44 AM (2).jpeg",
+        "WhatsApp Image 2026-02-25 at 10.29.44 AM (3).jpeg",
+        "WhatsApp Image 2026-02-25 at 10.29.44 AM.jpeg",
+        "WhatsApp Image 2026-02-25 at 10.29.45 AM (1).jpeg",
+        "WhatsApp Image 2026-02-25 at 10.29.45 AM (2).jpeg",
+        "WhatsApp Image 2026-02-25 at 10.29.45 AM.jpeg",
+        "WhatsApp Image 2026-02-25 at 10.29.46 AM (1).jpeg",
+        "WhatsApp Image 2026-02-25 at 10.29.46 AM.jpeg",
+        "WhatsApp Image 2026-02-25 at 10.29.48 AM (1).jpeg",
+        "WhatsApp Image 2026-02-25 at 10.29.48 AM (2).jpeg",
+        "WhatsApp Image 2026-02-25 at 10.29.48 AM.jpeg",
+        "WhatsApp Image 2026-02-25 at 10.29.49 AM (1).jpeg",
+        "WhatsApp Image 2026-02-25 at 10.29.49 AM.jpeg"
       ];
 
-      const projects = names.map((n, i) => ({
-        name: n,
-        location: locationsList[i % locationsList.length],
-        photo: `https://picsum.photos/seed/project${i+1}/400/240`,
-        desc: `Maintenance & instalasi untuk kolam (proyek contoh).`
+      const projects = projectFiles.map((file, i) => ({
+        name: `Klien ${i+1}`,
+        location: `Lokasi ${i+1}`,
+        photo: `assets/projects/${file}`,
+        desc: `Proyek kolam renang contoh.`
       }));
 
       let page = 0;
