@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="gradient-hero min-h-screen pt-20 relative overflow-hidden">
+    <section className="gradient-hero min-h-screen pt-16 relative overflow-hidden">
       {/* Decorative Elements */}
       <div className="absolute inset-0 opacity-30">
         <div className="absolute top-20 left-10 w-72 h-72 bg-sky-500 rounded-full blur-3xl"></div>
@@ -8,9 +8,9 @@ export default function Hero() {
       </div>
       {/* Water Ripple Pattern */}
       <div className="absolute inset-0 water-pattern opacity-50"></div>
-      
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 md:pt-16 pb-0">
+        <div className="grid lg:grid-cols-2 gap-8 items-center">
           <div className="text-center lg:text-left">
             <div className="inline-flex items-center gap-2.5 bg-sky-600/35 border border-sky-400/60 rounded-full px-5 py-2.5 mb-6 whitespace-nowrap">
               <svg className="w-4 h-4 text-cyan-300 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
@@ -20,21 +20,21 @@ export default function Hero() {
               </svg>
               <span className="text-cyan-200 text-sm font-semibold">Spesialis Maintenance Sejak 2005</span>
             </div>
-            
+
             <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-4">
               <span id="hero-title">Kolam Keruh?</span><br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-cyan-300" id="hero-title-2">
                 Mesin Sering Bermasalah?
               </span>
             </h1>
-            
+
             <p className="text-xl md:text-2xl text-sky-100 font-medium mb-6" id="hero-subtitle">Serahkan Maintenance Kolam Anda ke Spesialis.</p>
             <p className="text-gray-300 text-lg mb-8 max-w-xl mx-auto lg:mx-0">
               <strong className="text-white">PT Air Jernih Indonesia</strong> menghadirkan layanan maintenance kolam renang profesional untuk rumah pribadi dan proyek konstruksi.
             </p>
 
             {/* Offering Points Horizontal Cards */}
-            <div className="flex flex-col md:flex-row gap-4 justify-center lg:justify-start mb-10">
+            <div className="flex flex-col md:flex-row gap-4 justify-center lg:justify-start mb-6">
               <div className="flex flex-col items-center bg-white/5 rounded-xl shadow-sm px-6 py-4 min-w-[140px]">
                 <svg className="w-7 h-7 text-sky-300 mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4v16m8-8H4" />
@@ -66,7 +66,7 @@ export default function Hero() {
                 <span className="text-xs text-cyan-200 mt-1 text-center opacity-70">Jaminan spare part & layanan</span>
               </div>
             </div>
-            
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center">
               <a href="#kontak" className="btn-primary text-white px-7 py-3 rounded-full font-bold text-base inline-flex items-center justify-center gap-2 shadow-lg hover:-translate-y-1 transition-transform">
                 <span id="cta-button">Jadwalkan Inspeksi</span>
@@ -82,7 +82,7 @@ export default function Hero() {
               </a>
             </div>
           </div>
-          
+
           <div className="relative hidden lg:block">
             {/* Owner Section */}
             <div className="relative float-animation translate-x-12">
@@ -106,9 +106,24 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      
+
+      {/* Infinite Trust Banner - Positioned normally below content, above wave */}
+      <div className="relative w-full overflow-hidden z-10 opacity-70 hover:opacity-100 transition-opacity duration-300 mb-10 md:mb-14 mt-4 md:mt-6 group">
+        <div className="flex w-max animate-infinite-scroll group-hover:[animation-play-state:paused]">
+          {[...Array(2)].map((_, i) => (
+            <div key={i} className="flex gap-3 md:gap-4 px-1.5 md:px-2">
+              {Array.from({ length: 15 }).map((_, j) => (
+                <div key={j} className="w-32 h-24 md:w-48 md:h-32 rounded-xl overflow-hidden shrink-0 border-[4px] md:border-[6px] border-white shadow-xl bg-white">
+                  <img loading="lazy" src={`/images/showcase/bg-${j + 1}.webp`} alt="Portfolio" className="w-full h-full object-cover rounded-lg" />
+                </div>
+              ))}
+            </div>
+          ))}
+        </div>
+      </div>
+
       {/* Wave Divider */}
-      <div className="absolute bottom-0 left-0 right-0">
+      <div className="absolute bottom-0 left-0 right-0 z-20">
         <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" className="w-full h-16 md:h-24">
           <path
             d="M0 120L60 105C120 90 240 60 360 45C480 30 600 30 720 37.5C840 45 960 60 1080 67.5C1200 75 1320 75 1380 75L1440 75V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0Z"

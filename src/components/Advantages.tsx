@@ -14,7 +14,7 @@ export default function Advantages() {
             <p className="text-gray-600 text-lg mb-8">
               Kami bekerja secara sistematis dan terukur dengan fokus pada hasil jangka panjang, bukan solusi sementara.
             </p>
-            
+
             <div className="space-y-6">
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 bg-sky-100 rounded-xl flex items-center justify-center flex-shrink-0">
@@ -28,7 +28,7 @@ export default function Advantages() {
                   <p className="text-gray-600">Pengalaman teknis yang terbukti dalam menangani berbagai jenis kolam renang.</p>
                 </div>
               </div>
-              
+
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 bg-cyan-100 rounded-xl flex items-center justify-center flex-shrink-0">
                   <svg className="w-6 h-6 text-cyan-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -41,7 +41,7 @@ export default function Advantages() {
                   <p className="text-gray-600">Melayani kebutuhan rumah pribadi hingga proyek konstruksi skala besar.</p>
                 </div>
               </div>
-              
+
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 bg-teal-100 rounded-xl flex items-center justify-center flex-shrink-0">
                   <svg className="w-6 h-6 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -54,7 +54,7 @@ export default function Advantages() {
                   <p className="text-gray-600">Sistem perawatan preventif untuk mencegah kerusakan sebelum terjadi.</p>
                 </div>
               </div>
-              
+
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 bg-emerald-100 rounded-xl flex items-center justify-center flex-shrink-0">
                   <svg className="w-6 h-6 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -67,7 +67,7 @@ export default function Advantages() {
                   <p className="text-gray-600">Tim yang responsif dan selalu siap memberikan update kondisi kolam Anda.</p>
                 </div>
               </div>
-              
+
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 bg-indigo-100 rounded-xl flex items-center justify-center flex-shrink-0">
                   <svg className="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -82,25 +82,26 @@ export default function Advantages() {
               </div>
             </div>
           </div>
-          
-          <div className="relative">
-            <div className="bg-gradient-to-br from-sky-100 to-cyan-100 rounded-3xl p-8 md:p-12">
+
+          <div className="relative rounded-3xl overflow-hidden shadow-2xl bg-[url('/images/showcase/bg-13.webp')] bg-cover bg-center bg-fixed">
+            <div className="absolute inset-0 bg-white/90 backdrop-blur-[2px]"></div>
+            <div className="relative p-8 md:p-12 z-10">
               <div className="grid grid-cols-2 gap-6">
-                <div className="stat-card rounded-2xl p-6 text-center">
+                <div className="stat-card bg-white/50 backdrop-blur-md rounded-2xl p-6 text-center shadow-sm border border-white/50">
                   <div className="text-4xl md:text-5xl font-heading font-bold text-sky-600 mb-2">15+</div>
-                  <div className="text-gray-600 font-medium">Tahun Pengalaman</div>
+                  <div className="text-gray-700 font-bold">Tahun Pengalaman</div>
                 </div>
-                <div className="stat-card rounded-2xl p-6 text-center">
+                <div className="stat-card bg-white/50 backdrop-blur-md rounded-2xl p-6 text-center shadow-sm border border-white/50">
                   <div className="text-4xl md:text-5xl font-heading font-bold text-cyan-600 mb-2">500+</div>
-                  <div className="text-gray-600 font-medium">Kolam Terlayani</div>
+                  <div className="text-gray-700 font-bold">Kolam Terlayani</div>
                 </div>
-                <div className="stat-card rounded-2xl p-6 text-center">
+                <div className="stat-card bg-white/50 backdrop-blur-md rounded-2xl p-6 text-center shadow-sm border border-white/50">
                   <div className="text-4xl md:text-5xl font-heading font-bold text-teal-600 mb-2">98%</div>
-                  <div className="text-gray-600 font-medium">Klien Puas</div>
+                  <div className="text-gray-700 font-bold">Klien Puas</div>
                 </div>
-                <div className="stat-card rounded-2xl p-6 text-center">
+                <div className="stat-card bg-white/50 backdrop-blur-md rounded-2xl p-6 text-center shadow-sm border border-white/50">
                   <div className="text-4xl md:text-5xl font-heading font-bold text-emerald-600 mb-2">24/7</div>
-                  <div className="text-gray-600 font-medium">Support</div>
+                  <div className="text-gray-700 font-bold">Support</div>
                 </div>
               </div>
             </div>

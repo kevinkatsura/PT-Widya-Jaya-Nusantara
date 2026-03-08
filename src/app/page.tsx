@@ -6,6 +6,7 @@ import Advantages from "@/components/Advantages";
 import TargetAudience from "@/components/TargetAudience";
 import Impact from "@/components/Impact";
 import Testimonials from "@/components/Testimonials";
+import Showcase from "@/components/Showcase";
 import SpecialOffer from "@/components/SpecialOffer";
 import Cta from "@/components/Cta";
 import Locations from "@/components/Locations";
@@ -23,6 +24,7 @@ export default function Home() {
         <TargetAudience />
         <Impact />
         <Testimonials />
+        <Showcase />
         <SpecialOffer />
         <Cta />
         <Locations />

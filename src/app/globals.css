@@ -77,6 +77,15 @@ body {
   animation: float 3s ease-in-out infinite;
 }
 
+@keyframes infinite-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.animate-infinite-scroll {
+  animation: infinite-scroll 40s linear infinite;
+}
+
 .pulse-ring::before {
   content: '';
   position: absolute;
