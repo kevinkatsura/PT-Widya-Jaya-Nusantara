@@ -92,7 +92,7 @@ export default function Advantages() {
                   <div className="text-gray-700 font-bold text-xs sm:text-base">Tahun Pengalaman</div>
                 </div>
                 <div className="stat-card bg-white/50 backdrop-blur-md rounded-2xl p-4 sm:p-6 text-center shadow-sm border border-white/50">
-                  <div className="text-3xl sm:text-4xl md:text-5xl font-heading font-bold text-cyan-600 mb-1 sm:mb-2">500+</div>
+                  <div className="text-3xl sm:text-4xl md:text-5xl font-heading font-bold text-cyan-600 mb-1 sm:mb-2">50+</div>
                   <div className="text-gray-700 font-bold text-xs sm:text-base">Kolam Terlayani</div>
                 </div>
                 <div className="stat-card bg-white/50 backdrop-blur-md rounded-2xl p-4 sm:p-6 text-center shadow-sm border border-white/50">
