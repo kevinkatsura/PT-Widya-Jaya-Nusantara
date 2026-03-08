@@ -97,7 +97,7 @@ export default function Hero() {
                         <strong>CEO</strong>
                       </div>
                       <div className="text-lg font-bold text-white mt-0.5">Trisno Aji</div>
-                      <div className="text-xs text-sky-200 opacity-80">PT Air Jernih Indonesia</div>
+                      <div className="text-xs text-gray-100 opacity-70">PT Air Jernih Indonesia</div>
                     </div>
                   </div>
                 </div>
