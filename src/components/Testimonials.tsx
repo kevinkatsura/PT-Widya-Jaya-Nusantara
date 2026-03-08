@@ -2,16 +2,11 @@
 
 import { useState } from "react";
 
-const projects = Array.from({ length: 30 }).map((_, i) => ({
-  name: `Klien ${i + 1}`,
-  location: `Lokasi ${i + 1}`,
-  photo: `/images/projects/project-${i + 1}.jpeg`,
-  desc: `Proyek kolam renang contoh.`
-}));
+import projects from "@/data/clients.json";
 
 export default function Testimonials() {
   const [page, setPage] = useState(0);
-  const pageSize = 6;
+  const pageSize = 8;
   const totalPages = Math.ceil(projects.length / pageSize);
 
   const start = page * pageSize;
@@ -40,9 +35,9 @@ export default function Testimonials() {
             Beberapa proyek yang telah kami tangani, lengkap dengan foto, nama klien, dan lokasi.
           </p>
         </div>
-        
+
         <div className="flex flex-col sm:flex-row items-center justify-center w-full gap-4 sm:gap-0">
-          <button 
+          <button
             onClick={prevPage}
             className="flex items-center justify-center w-12 h-12 rounded-full bg-sky-100 text-sky-600 font-bold hover:bg-sky-200 transition sm:mr-4 shrink-0"
             aria-label="Sebelumnya"
@@ -51,19 +46,22 @@ export default function Testimonials() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7" />
             </svg>
           </button>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full transition-opacity duration-300">
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 w-full transition-opacity duration-300">
             {currentProjects.map((p, idx) => (
-              <div key={idx} className="bg-white rounded-3xl p-6 shadow-lg border border-gray-100 flex flex-col">
-                <img loading="lazy" src={p.photo} alt={p.name} className="rounded-xl mb-4 object-cover h-40 w-full" />
-                <div className="font-heading font-bold text-gray-900 text-lg mb-1">{p.name}</div>
-                <div className="text-gray-500 text-sm mb-2">{p.location}</div>
-                <div className="text-gray-600 text-sm">{p.desc}</div>
+              <div key={idx} className="bg-white rounded-2xl p-2 shadow-lg border border-gray-100 flex flex-col h-full hover:-translate-y-2 transition-transform duration-300">
+                <img loading="lazy" src={p.image} alt={p.altText} title={p.name} className="rounded-xl mb-3 object-cover h-48 w-full shadow-sm" />
+                <div className="px-2 pb-1">
+                  <div className="font-heading font-bold text-gray-900 text-lg mb-1 leading-tight">{p.name}</div>
+                  <div className="text-gray-500 font-medium text-sm flex items-center gap-1">
+                    {p.location}
+                  </div>
+                </div>
               </div>
             ))}
           </div>
-          
-          <button 
+
+          <button
             onClick={nextPage}
             className="flex items-center justify-center w-12 h-12 rounded-full bg-sky-100 text-sky-600 font-bold hover:bg-sky-200 transition sm:ml-4 shrink-0 mt-4 sm:mt-0"
             aria-label="Berikutnya"

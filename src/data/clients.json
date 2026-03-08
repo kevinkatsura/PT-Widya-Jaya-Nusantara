@@ -1,0 +1,191 @@
+[
+  {
+    "id": "air-terjun-rian-residence-balikpapan",
+    "name": "Air Terjun Rian Residence",
+    "location": "Balikpapan",
+    "image": "/images/projects/air-terjun-rian-residence-balikpapan.webp",
+    "altText": "Maintenance Kolam Renang Air Terjun Rian Residence di Balikpapan"
+  },
+  {
+    "id": "ibers-waterpark-pandegelang-banten",
+    "name": "Ibers Waterpark",
+    "location": "Pandegelang, Banten",
+    "image": "/images/projects/ibers-waterpark-pandegelang-banten.webp",
+    "altText": "Maintenance Kolam Renang Ibers Waterpark di Pandegelang, Banten"
+  },
+  {
+    "id": "kolam-ikan-bapak-gun-jambi",
+    "name": "Kolam Ikan Bapak Gun",
+    "location": "Jambi",
+    "image": "/images/projects/kolam-ikan-bapak-gun-jambi.webp",
+    "altText": "Maintenance Kolam Renang Kolam Ikan Bapak Gun di Jambi"
+  },
+  {
+    "id": "kolam-ikan-bapak-gun-2-jambi",
+    "name": "Kolam Ikan Bapak Gun 2",
+    "location": "Jambi",
+    "image": "/images/projects/kolam-ikan-bapak-gun-2-jambi.webp",
+    "altText": "Maintenance Kolam Renang Kolam Ikan Bapak Gun 2 di Jambi"
+  },
+  {
+    "id": "kolam-ikan-bapak-suharyanto-bandung",
+    "name": "Kolam Ikan Bapak Suharyanto",
+    "location": "Bandung",
+    "image": "/images/projects/kolam-ikan-bapak-suharyanto-bandung.webp",
+    "altText": "Maintenance Kolam Renang Kolam Ikan Bapak Suharyanto di Bandung"
+  },
+  {
+    "id": "kolam-ikan-bapak-suharyanto-sentul-bogor",
+    "name": "Kolam Ikan Bapak Suharyanto",
+    "location": "Sentul, Bogor",
+    "image": "/images/projects/kolam-ikan-bapak-suharyanto-sentul-bogor.webp",
+    "altText": "Maintenance Kolam Renang Kolam Ikan Bapak Suharyanto di Sentul, Bogor"
+  },
+  {
+    "id": "kolam-ikan-rian-residence-balikpapan",
+    "name": "Kolam Ikan Rian Residence",
+    "location": "Balikpapan",
+    "image": "/images/projects/kolam-ikan-rian-residence-balikpapan.webp",
+    "altText": "Maintenance Kolam Renang Kolam Ikan Rian Residence di Balikpapan"
+  },
+  {
+    "id": "kolam-ikan-rian-residence-2-balikpapan",
+    "name": "Kolam Ikan Rian Residence 2",
+    "location": "Balikpapan",
+    "image": "/images/projects/kolam-ikan-rian-residence-2-balikpapan.webp",
+    "altText": "Maintenance Kolam Renang Kolam Ikan Rian Residence 2 di Balikpapan"
+  },
+  {
+    "id": "kolam-jacuzzi-ibu-henny-banjarnegara-jawa-tengah",
+    "name": "Kolam Jacuzzi Ibu Henny",
+    "location": "Banjarnegara, Jawa Tengah",
+    "image": "/images/projects/kolam-jacuzzi-ibu-henny-banjarnegara-jawa-tengah.webp",
+    "altText": "Maintenance Kolam Renang Kolam Jacuzzi Ibu Henny di Banjarnegara, Jawa Tengah"
+  },
+  {
+    "id": "kolam-renang-bapak-achmad-supit-pondok-indah-jakarta-selatan",
+    "name": "Kolam Renang Bapak Achmad Supit",
+    "location": "Pondok Indah, Jakarta Selatan",
+    "image": "/images/projects/kolam-renang-bapak-achmad-supit-pondok-indah-jakarta-selatan.webp",
+    "altText": "Maintenance Kolam Renang Kolam Renang Bapak Achmad Supit di Pondok Indah, Jakarta Selatan"
+  },
+  {
+    "id": "kolam-renang-bapak-aditya-sektor-1-bintaro-tangerang-selatan",
+    "name": "Kolam Renang Bapak Aditya",
+    "location": "Sektor 1 Bintaro, Tangerang Selatan",
+    "image": "/images/projects/kolam-renang-bapak-aditya-sektor-1-bintaro-tangerang-selatan.webp",
+    "altText": "Maintenance Kolam Renang Kolam Renang Bapak Aditya di Sektor 1 Bintaro, Tangerang Selatan"
+  },
+  {
+    "id": "kolam-renang-bapak-ahong-dumai-riau",
+    "name": "Kolam Renang Bapak Ahong",
+    "location": "Dumai, Riau",
+    "image": "/images/projects/kolam-renang-bapak-ahong-dumai-riau.webp",
+    "altText": "Maintenance Kolam Renang Kolam Renang Bapak Ahong di Dumai, Riau"
+  },
+  {
+    "id": "kolam-renang-bapak-alwi-sudirman-residence-jakarta-selatan",
+    "name": "Kolam Renang Bapak Alwi",
+    "location": "Sudirman Residence, Jakarta Selatan",
+    "image": "/images/projects/kolam-renang-bapak-alwi-sudirman-residence-jakarta-selatan.webp",
+    "altText": "Maintenance Kolam Renang Kolam Renang Bapak Alwi di Sudirman Residence, Jakarta Selatan"
+  },
+  {
+    "id": "kolam-renang-bapak-andy-pik-jakarta-barat",
+    "name": "Kolam Renang Bapak Andy",
+    "location": "PIK, Jakarta Barat",
+    "image": "/images/projects/kolam-renang-bapak-andy-pik-jakarta-barat.webp",
+    "altText": "Maintenance Kolam Renang Kolam Renang Bapak Andy di PIK, Jakarta Barat"
+  },
+  {
+    "id": "kolam-renang-bapak-asa-palembang",
+    "name": "Kolam Renang Bapak Asa",
+    "location": "Palembang",
+    "image": "/images/projects/kolam-renang-bapak-asa-palembang.webp",
+    "altText": "Maintenance Kolam Renang Kolam Renang Bapak Asa di Palembang"
+  },
+  {
+    "id": "kolam-renang-bapak-gunawan-jambi",
+    "name": "Kolam Renang Bapak Gunawan",
+    "location": "Jambi",
+    "image": "/images/projects/kolam-renang-bapak-gunawan-jambi.webp",
+    "altText": "Maintenance Kolam Renang Kolam Renang Bapak Gunawan di Jambi"
+  },
+  {
+    "id": "kolam-renang-bapak-rusmin-lie-jakarta",
+    "name": "Kolam Renang Bapak Rusmin Lie",
+    "location": "Jakarta",
+    "image": "/images/projects/kolam-renang-bapak-rusmin-lie-jakarta.webp",
+    "altText": "Maintenance Kolam Renang Kolam Renang Bapak Rusmin Lie di Jakarta"
+  },
+  {
+    "id": "kolam-renang-bapak-rusmin-lie-tanah-abang-jakarta-pusat",
+    "name": "Kolam Renang Bapak Rusmin Lie",
+    "location": "Tanah Abang, Jakarta Pusat",
+    "image": "/images/projects/kolam-renang-bapak-rusmin-lie-tanah-abang-jakarta-pusat.webp",
+    "altText": "Maintenance Kolam Renang Kolam Renang Bapak Rusmin Lie di Tanah Abang, Jakarta Pusat"
+  },
+  {
+    "id": "kolam-renang-bapak-sandy-matraman-jakarta",
+    "name": "Kolam Renang Bapak Sandy",
+    "location": "Matraman, Jakarta",
+    "image": "/images/projects/kolam-renang-bapak-sandy-matraman-jakarta.webp",
+    "altText": "Maintenance Kolam Renang Kolam Renang Bapak Sandy di Matraman, Jakarta"
+  },
+  {
+    "id": "kolam-renang-bapak-yan-kelapa-gading-jakarta-utara",
+    "name": "Kolam Renang Bapak Yan",
+    "location": "Kelapa Gading, Jakarta Utara",
+    "image": "/images/projects/kolam-renang-bapak-yan-kelapa-gading-jakarta-utara.webp",
+    "altText": "Maintenance Kolam Renang Kolam Renang Bapak Yan di Kelapa Gading, Jakarta Utara"
+  },
+  {
+    "id": "kolam-renang-beth-kasegaran-theresia-bogor",
+    "name": "Kolam Renang Beth Kasegaran Theresia",
+    "location": "Bogor",
+    "image": "/images/projects/kolam-renang-beth-kasegaran-theresia-bogor.webp",
+    "altText": "Maintenance Kolam Renang Kolam Renang Beth Kasegaran Theresia di Bogor"
+  },
+  {
+    "id": "kolam-renang-ibu-christine-lebak-bulus-jakarta",
+    "name": "Kolam Renang Ibu Christine",
+    "location": "Lebak Bulus, Jakarta",
+    "image": "/images/projects/kolam-renang-ibu-christine-lebak-bulus-jakarta.webp",
+    "altText": "Maintenance Kolam Renang Kolam Renang Ibu Christine di Lebak Bulus, Jakarta"
+  },
+  {
+    "id": "kolam-renang-ibu-henny-pondok-kelapa-jakarta-timur",
+    "name": "Kolam Renang Ibu Henny",
+    "location": "Pondok Kelapa, Jakarta Timur",
+    "image": "/images/projects/kolam-renang-ibu-henny-pondok-kelapa-jakarta-timur.webp",
+    "altText": "Maintenance Kolam Renang Kolam Renang Ibu Henny di Pondok Kelapa, Jakarta Timur"
+  },
+  {
+    "id": "kolam-renang-ibu-mita-sektor-7-bintaro-tangerang-selatan",
+    "name": "Kolam Renang Ibu Mita",
+    "location": "Sektor 7 Bintaro, Tangerang Selatan",
+    "image": "/images/projects/kolam-renang-ibu-mita-sektor-7-bintaro-tangerang-selatan.webp",
+    "altText": "Maintenance Kolam Renang Kolam Renang Ibu Mita di Sektor 7 Bintaro, Tangerang Selatan"
+  },
+  {
+    "id": "oase-waterpark-karawang-timur-jawa-barat",
+    "name": "Oase Waterpark",
+    "location": "Karawang Timur, Jawa Barat",
+    "image": "/images/projects/oase-waterpark-karawang-timur-jawa-barat.webp",
+    "altText": "Maintenance Kolam Renang Oase Waterpark di Karawang Timur, Jawa Barat"
+  },
+  {
+    "id": "oase-waterpark-2-karawang-timur-jawa-barat",
+    "name": "Oase Waterpark 2",
+    "location": "Karawang Timur, Jawa Barat",
+    "image": "/images/projects/oase-waterpark-2-karawang-timur-jawa-barat.webp",
+    "altText": "Maintenance Kolam Renang Oase Waterpark 2 di Karawang Timur, Jawa Barat"
+  },
+  {
+    "id": "oase-waterpark-3-karawang-timur-jawa-barat",
+    "name": "Oase Waterpark 3",
+    "location": "Karawang Timur, Jawa Barat",
+    "image": "/images/projects/oase-waterpark-3-karawang-timur-jawa-barat.webp",
+    "altText": "Maintenance Kolam Renang Oase Waterpark 3 di Karawang Timur, Jawa Barat"
+  }
+]
